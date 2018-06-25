@@ -1,19 +1,35 @@
 .container_12{
     background:white;
+    
 }
+header{
+    background:palegoldenrod;
+   position:fixed;
+  
+    font-family: 'Sigmar One',cursive;
+    font-size:50;
+    
+}
+li a:hover{
+    background: pink;
+}
+a:link{text-decoration: none;}
 nav li{
     display:inline;
     margin-left:0;
     margin-right:30px;
     font-size: 15;
+    line-height:3;
     font-family: 'Ovo',serif;}
-    .herounit{
+.herounit{
         margin-top:57px;
         background:white;
         font-family: 'Ovo',serif;
         font-size:15;
-        
-    } 
+margin-left:0; 
+text-align:justify;  
+  width:auto;
+ } 
 aside{
    float:right; 
    background:white;
@@ -26,23 +42,17 @@ aside{
 .primary{
     background:white;  
    width:100%; 
-   height:450px;
+   height:500px;
    font-family: 'Ovo',serif;
    font-size:15;
+   text-align:justify;
+}
 
-}
-header{
-    background:palegoldenrod;
-    overflow:hidden;
-    position:fixed;
-    font-family: 'Sigmar One',cursive;
-    font-size:50;
-    
-}
 .secondary{
     background:white;
     font-family: 'Ovo',serif;
         font-size:15;
+        text-align:justify;
 }
 footer{
    background:palegoldenrod;
@@ -52,12 +62,8 @@ footer{
     font-family: 'Ovo',serif;
 }
 footer li{
-    display:inline;
-    
+    display:inline;   
 }
-social{
-    float:left;
-}
-comment{
-    float:right;
+.comment{
+    line-height:3.5;
 }
